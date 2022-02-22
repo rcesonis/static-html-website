@@ -15,13 +15,36 @@ body {
 .sidebar a {
   font-size: 2.5rem;
 }
+.sidebar .nav-link i {
+  color: #3f51b5;
+}
+.sidebar .nav-link i:hover {
+  color: #6573c3;
+}
+.sidebar .social-link i {
+  color: #568a73;
+}
+.sidebar .social-link:hover i {
+  color: #8fcb9b;
+}
 
 .main-heading {
   font-family: "Palanquin Dark", sans-serif;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+img {
+  width: 20rem;
+}
+
+p {
+  margin: 5% 15%;
 }
 
 .footer {
   background-color: #282a36;
+  height: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

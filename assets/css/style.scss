@@ -3,7 +3,10 @@ $main-sidebar-color: #282a36;
 $main-font: 'Roboto', sans-serif;
 $heading-font: 'Palanquin Dark', sans-serif;
 $main-line-height: 1.2rem;
-
+$nav-icon-color: #3f51b5;
+$nav-icon-color-hover: #6573c3;
+$social-icon-color: #568a73;
+$social-icon-color-hover: #8fcb9b;
 
 // Gutters
 $grid-gutter-width: 0;
@@ -31,12 +34,31 @@ body {
     a {
         font-size: 2.5rem;
     }
+    .nav-link i {
+        color: $nav-icon-color;
+    }
+    .nav-link i:hover {
+        color: $nav-icon-color-hover;
+    }
+    .social-link i{
+        color: $social-icon-color;
+    }
+    .social-link:hover i {
+        color: $social-icon-color-hover;
+    }   
 }
+
 
 // Content
 
 .main-heading {
     font-family: $heading-font;
+    font-size: 3rem;
+    line-height: $main-line-height*2.5;
+}
+
+img {
+    width: 20rem;
 }
 
 // Footer
