@@ -30,21 +30,41 @@ body {
 
 .main-heading {
   font-family: "Palanquin Dark", sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 3rem;
 }
 
-img {
-  width: 20rem;
+.about-me {
+  font-size: 2rem;
+  width: 70%;
+  margin: auto;
 }
 
-p {
-  margin: 5% 15%;
+img {
+  width: 21rem;
+}
+
+.form-control {
+  border: 2px solid #3f51b5;
+}
+
+.form-input {
+  width: 70%;
+  margin: auto;
+}
+
+.send-email-button {
+  font-weight: 500;
+  padding: 0.75rem 2rem;
+  background-color: #568a73;
+  border-radius: 15%;
+}
+.send-email-button:hover {
+  background-color: #8fcb9b;
 }
 
 .footer {
   background-color: #282a36;
-  height: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

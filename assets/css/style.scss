@@ -53,13 +53,41 @@ body {
 
 .main-heading {
     font-family: $heading-font;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: $main-line-height*2.5;
 }
 
-img {
-    width: 20rem;
+.about-me {
+    font-size: 2rem;
+    width: 70%;
+    margin: auto;
 }
+
+img {
+    width: 21rem;
+}
+
+// Contact form
+
+.form-control {
+    border: 2px solid $nav-icon-color;
+}
+
+.form-input {
+    width: 70%;
+    margin: auto;
+}
+
+.send-email-button {
+    font-weight: 500;
+    padding: 0.75rem 2rem;
+    background-color: #568a73;
+    border-radius: 15%;
+    &:hover {
+        background-color: #8fcb9b;
+    }
+}
+
 
 // Footer
 
